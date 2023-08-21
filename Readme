@@ -34,22 +34,23 @@ Before you begin, make sure you have the following installed:
 ## Usage
 
 To build and start the application, follow these steps:
+1. Add .env the root direction has describe in the .env.example by adding the BASE_URL with the pokemon url
 
-1. Build the production code:
+2. Build the production code:
 
     ```sh
     npm run prod:server
     # or
     yarn prod:server
     ```
-2. start the optimized production code :
+3. start the optimized production code :
 
     ```sh
     npm start
     # or
     yarn start
     ```    
-3. start and run the test suit jest  :
+4. start and run the test suit jest  :
 
     ```sh
     npm run test
@@ -57,7 +58,7 @@ To build and start the application, follow these steps:
     yarn run test
     ```     
 
-3. Start the application in development:
+5. Start the application in development:
 
     ```sh
     npm dev:server
