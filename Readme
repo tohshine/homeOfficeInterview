@@ -65,6 +65,11 @@ To build and start the application, follow these steps:
     # or
     yarn dev:server
     ```
+5. Using Postman  to access the route:
+   - open your post man change the request method to post  with url of /api/pokemon
+   - with with pokemonName of {pokemon:"butterfree"}
+   - the request body returns a structured data with list of pokemon and its variations
+       
 
 The application should now be running and accessible at [http://localhost:5000](http://localhost:5000).
 
